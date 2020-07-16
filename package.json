@@ -1,0 +1,10 @@
+{
+  "name": "design-systems",
+  "version": "1.0.0",
+  "author": "Androo",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
