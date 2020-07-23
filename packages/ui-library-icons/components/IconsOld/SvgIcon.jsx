@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import Svgs from './Svgs';
-import LargeSvgSet from './LargeSvgSet';
+import React from "react";
+import PropTypes from "prop-types";
+import classnames from "classnames";
+import Svgs from "./Svgs";
+import LargeSvgSet from "./LargeSvgSet";
 
 const sets = {
   sm: Svgs,
@@ -10,8 +10,8 @@ const sets = {
 };
 
 const sizes = {
-  sm: '18',
-  lg: '32',
+  sm: "18",
+  lg: "32",
 };
 
 /**
@@ -21,8 +21,8 @@ const sizes = {
  */
 const SvgIcon = ({ size, type, title, set, className }) => {
   const ariaAttribute = title
-    ? { 'aria-label': title }
-    : { 'aria-hidden': 'true' };
+    ? { "aria-label": title }
+    : { "aria-hidden": "true" };
 
   const iconSet = sets[set];
   const iconSize = sizes[set];
@@ -63,7 +63,7 @@ SvgIcon.propTypes = {
    *
    * - `lg`: large icon set that is made to scale larger, svgs are slightly different to `sm`. Large icon set default size: `32px`
    */
-  set: PropTypes.oneOf(['sm', 'lg']),
+  set: PropTypes.oneOf(["sm", "lg"]),
   /**
    * Specify your own classname into this prop, if you need to customise layout of this component.
    * This classname will be put into the parent container of this component.
@@ -75,7 +75,7 @@ SvgIcon.propTypes = {
 SvgIcon.defaultProps = {
   size: undefined,
   title: undefined,
-  set: 'sm',
+  set: "sm",
   className: undefined,
 };
 
