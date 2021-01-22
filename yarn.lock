@@ -2252,19 +2252,6 @@
     magic-string "^0.25.2"
     resolve "^1.11.0"
 
-"@rollup/plugin-commonjs@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.1.0.tgz#60636c7a722f54b41e419e1709df05c7234557ef"
-  integrity sha512-Ycr12N3ZPN96Fw2STurD21jMqzKwL9QuFhms3SD7KKRK7oaXUsBU9Zt0jL/rOPHiPYisI21/rXGO3jr9BnLHUA==
-  dependencies:
-    "@rollup/pluginutils" "^3.0.8"
-    commondir "^1.0.1"
-    estree-walker "^1.0.1"
-    glob "^7.1.2"
-    is-reference "^1.1.2"
-    magic-string "^0.25.2"
-    resolve "^1.11.0"
-
 "@rollup/plugin-node-resolve@8.4.0":
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-8.4.0.tgz#261d79a680e9dc3d86761c14462f24126ba83575"
@@ -2277,17 +2264,6 @@
     deepmerge "^4.2.2"
     is-module "^1.0.0"
     resolve "^1.17.0"
-
-"@rollup/plugin-node-resolve@^7.1.3":
-  version "7.1.3"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.3.tgz#80de384edfbd7bfc9101164910f86078151a3eca"
-  integrity sha512-RxtSL3XmdTAE2byxekYLnx+98kEUOrPHF/KRVjLH+DEIHy6kjIw7YINQzn+NXiH/NTrQLAwYs0GWB+csWygA9Q==
-  dependencies:
-    "@rollup/pluginutils" "^3.0.8"
-    "@types/resolve" "0.0.8"
-    builtin-modules "^3.1.0"
-    is-module "^1.0.0"
-    resolve "^1.14.2"
 
 "@rollup/pluginutils@^3.0.8", "@rollup/pluginutils@^3.0.9", "@rollup/pluginutils@^3.1.0":
   version "3.1.0"
@@ -2721,13 +2697,6 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
-
-"@types/resolve@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-0.0.8.tgz#f26074d238e02659e323ce1a13d041eee280e194"
-  integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
-  dependencies:
-    "@types/node" "*"
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -5790,7 +5759,7 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-eval@^0.1.2, eval@^0.1.4:
+eval@^0.1.2:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/eval/-/eval-0.1.4.tgz#e05dbe0dab4b9330215cbb7bf4886eb24bd58700"
   integrity sha512-npGsebJejyjMRnLdFu+T/97dnigqIU0Ov3IGrZ8ygd1v7RL1vGkEKtvyWZobqUH1AQgKlg0Yqqe2BtMA9/QZLw==
@@ -10709,7 +10678,7 @@ resolve@1.15.0:
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.10.0, resolve@^1.11.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.15.1, resolve@^1.17.0, resolve@^1.3.2, resolve@^1.8.1:
+resolve@^1.10.0, resolve@^1.11.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.15.1, resolve@^1.17.0, resolve@^1.3.2, resolve@^1.8.1:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
   integrity sha512-ic+7JYiV8Vi2yzQGFWOkiZD5Z9z7O2Zhm9XMaTxdJExKasieFCr+yXZ/WmXsckHiKl12ar0y6XiXDx3m4RHn1w==
@@ -10789,19 +10758,13 @@ rollup-plugin-auto-external@2.0.0:
     safe-resolve "^1.0.0"
     semver "^5.5.0"
 
-rollup-plugin-treat@0.0.1-alpha.1:
-  version "0.0.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-treat/-/rollup-plugin-treat-0.0.1-alpha.1.tgz#738055409ed93685a87d9aa47f583a3217f32544"
-  integrity sha512-5E9Qbkur6r7LMkj9PC2yShB/7L044qaZ/y9xoKAgGXcyB5E0Sc2qUeeps7ewEG3LUjsAIXqiyPa9s+/nYw384Q==
+rollup-plugin-treat@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-treat/-/rollup-plugin-treat-0.0.1.tgz#0486e2effcb8729458b28bf5a1728b6ef80570e2"
+  integrity sha512-QMN8K4ioBHog2oqVIMXhtA/NaQ0HjytF0fQeetjwRq03l6cb3eNyDfxFgGrzDNqJL6byxJCZt9d07+8XL7HHNw==
   dependencies:
-    "@rollup/plugin-commonjs" "^11.1.0"
-    "@rollup/plugin-node-resolve" "^7.1.3"
     "@rollup/pluginutils" "^3.0.9"
-    builtin-modules "^3.1.0"
-    debug "^4.1.1"
-    eval "^0.1.4"
     rollup "^2.7.6"
-    treat "^1.4.1"
 
 rollup-pluginutils@^2.8.2:
   version "2.8.2"
@@ -11857,7 +11820,7 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-treat@1.4.3, treat@^1.4.1:
+treat@1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/treat/-/treat-1.4.3.tgz#d634766fb8b8b29a5f8ffd69ab1f587b0d60457d"
   integrity sha512-+LajJja73v1TDf367+axjuDR4nWn3FhvPkPSxvDaQUewJMILYVm3CEw+JuWXCIm6mGiQ1miVDpRrFuQ/FtKfYw==
